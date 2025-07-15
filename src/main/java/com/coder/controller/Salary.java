@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Salary {
 
-	
+	// provide salary detail for employee
 	@GetMapping("/salary")
 	public ResponseEntity<Integer> getsalary(){
 		
